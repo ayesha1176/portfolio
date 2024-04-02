@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color:#222831;
+    color: antiquewhite;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: #31363F;
+
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li{
+    list-style: none;
+  }
+  nav ul li a{
+    text-decoration: none;
+    margin: 0 23px;
+    color: antiquewhite;
+  }
+  nav ul li a:hover{
+    color: #76ABAE;
+  font-size: 1.2rem;
+  }
+main hr{
+border: 0;
+background: #31363F;
+height: 3px;
+margin: 40px 84px;
+}
+  .left{
+    font-size: 2rem;
+  }
+  .firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  .firstsection > div{
+    width: 30%;
+  }
+  .leftsection{
+  
+    width: 34px;
+    font-size: 3rem;
+    
+  }
+  .rightsection{
+    margin-right: 89px;
+    
+  }
+  .purple{
+    color: aqua;
+  }
+  #element{
+    color: aqua;
+  }
+
+  #bio {
+
+cursor: pointer;
+padding: 70px 70px;
+
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+font-family: 'Noto Sans',sans-serif;
+
+}
+
+
+
+
+.rightbio {
+text-align: center;
+padding: 0 40px;
+}
+
+.rightbio p {
+margin: 15px 0;
+line-height: 1.3rem;
+}
+
+.rightbio h1 {
+font-size: 3rem;
+}
+.secondsection .box{
+background: white;
+width: 84vw;
+height: 2px;
+margin: 56px 0;
+display: flex;
+
+
+}
+
+.lists {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+list-style: none;
+padding-top: 12px;
+font-size: 2rem;
+text-decoration:underline;
+}
+.pics{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 12px;
+margin-right: 28px;
+}
+footer{
+background-color: #43dbdb;
+height: 233px;
+}
+.footer{
+display: flex;
+margin: 123px 122px;
+}
+.part1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 66px;
+  font-size: larger;
+  color: #31363F;
+  padding-top: 15px;
+}
+.part2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 66px;
+  font-size: larger;
+  color: #31363F;
+  padding-top: 15px;
+}
+.logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 30px;
+  gap: 12px;
+  color: #31363F;
+  
+}
+.lastpart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222831;
+  height: 78px;
+  color: #43dbdb;
+  font-size: 20px;
+
+}
